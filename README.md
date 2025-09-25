@@ -38,8 +38,8 @@ Before running the project, make sure you have:
 
 1. Clone the repository
 2. Configure the database connection. Update appsettings.json with your SQL Server connection string:
-3. Run the application. It will be running on http://localhost:5001 which is mensioned in launchSettings.json file.
+3. Run the application. It will be running on http://localhost:5001 which is mensioned in `launchSettings.json file.`
 
 ## Postman collection
 
-Import the postman collection Todo API.postman_collection.json
+Import the postman collection `Todo API.postman_collection.json`
