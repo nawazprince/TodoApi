@@ -73,7 +73,6 @@ namespace TodoApi.Controllers
         [HttpPost("login")]
         public async Task<ActionResult<ApiResponse<SignUpResponseDto>>> Login([FromBody] LoginDto model)
         {
-            throw new ArgumentNullException();
             if (!ModelState.IsValid)
             {
                 string errorMessage = string.Join("; ",
